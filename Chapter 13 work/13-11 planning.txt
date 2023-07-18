@@ -1,0 +1,36 @@
+
+ GeometricObject
+      
+
+ +getColor(): String   
++setColor(color: String): void
++isFilled(): boolean  
++setFilled(filled: boolean): void
++getArea(): double    
++getPerimeter(): double
+
+               ^
+
+Octagon 
+
+-side: double
+
++Octagon(side: double)
++getSide(): double    
++setSide(side: double): void
++getArea(): double    
++getPerimeter(): double
++compareTo(other: Octagon): int
++clone(): Octagon throws CloneNotSupportedException
+
+             ^
+
+ Comparable<T>
+
+ +compareTo(other: T): int
+
+            ^
+
+Cloneable
+
++clone(): Object throws CloneNotSupportedException
