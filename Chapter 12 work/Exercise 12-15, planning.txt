@@ -1,0 +1,8 @@
+How will you write to the file?
+Create FileWriter and BufferedWriter and then use the write method to put integers in the file
+
+How will you read from the file?
+
+create FileReader and BufferedReader and use the readLine method to read lines in the file
+
+Ethan Bates
