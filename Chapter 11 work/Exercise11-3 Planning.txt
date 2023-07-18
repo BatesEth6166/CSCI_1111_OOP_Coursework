@@ -1,0 +1,67 @@
+Account     
+
+- id: int        
+
+- balance: double
+
+- annualInterestRate: double 
+
+- dateCreated: Date
+
++ Account()      
+
++ Account(id: int, balance: double) 
+
++ getId(): int   
+
++ setId(id: int): void 
+
++ getBalance(): double 
+
++ setBalance(balance: double): void 
+
++ getAnnualInterestRate(): double 
+
++ setAnnualInterestRate(annualInterestRate: double): void 
+
++ getDateCreated(): Date 
+
++ getMonthlyInterestRate(): double 
+
++ getMonthlyInterest(): double 
+
++ withdraw(amount: double): void 
+
++ deposit(amount: double): void 
+
+^^^
+
+CheckingAccount  
+
+- overdraftLimit: double 
+
+ 
+
++ CheckingAccount() 
+
++ CheckingAccount(id: int, balance: double, overdraftLimit: double) 
+
++ getOverdraftLimit(): double 
+
++ setOverdraftLimit(overdraftLimit: double): void 
+
++ withdraw(amount: double): void 
+
+^^^
+
+SavingsAccount   
+
++ SavingsAccount() 
+
++ SavingsAccount(id: int, balance: double) 
+
++ withdraw(amount: double): void 
+
+ 
+
+Ethan Bates
