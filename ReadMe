@@ -1,0 +1,16 @@
+# Asteroid Adventure
+
+## Synopsis
+This is a game using JavaFX where the player ship evades pirates, using missiles and boosters to collect treasures and get to the exit.
+
+## Motivation
+I made this to build upon my last project, to improve it and make it more useable and look better.
+
+## How to Run
+you can run the program using coderunner, simply pull up the files and select run. If your IDE is equipped with javaFX that will also be able to run it
+
+## Code Example
+I am rather proud of this code snippit, which makes a transition animation for the scenes, helps it look cooler. I looked up how to do this but implementing it was a whole other nightmare.
+TranslateTransition slideIn = new TranslateTransition(Duration.seconds(2), gridPane);
+        gridPane.setTranslateY(-scene.getHeight());
+        slideIn.setToY(0);
